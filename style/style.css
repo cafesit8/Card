@@ -32,17 +32,22 @@
 
 .header {
   display: flex;
+  justify-content: center;
 }
 
 .header__professional-image-container {
-  display: flex;
-  max-width: 256px;
-  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
 }
 
 .header__professional-image {
   width: 100%;
-  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .article {
