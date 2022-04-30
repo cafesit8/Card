@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    width: 14vw;
+    max-height: 150px;
+}
